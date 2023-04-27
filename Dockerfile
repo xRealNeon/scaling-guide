@@ -5,4 +5,4 @@ RUN echo "eula=true" > eula.txt
 RUN mkdir config
 RUN wget -O config/paper-global.yml https://gist.githubusercontent.com/xRealNeon/8d6e3d91271301809d869a7a77bc1cba/raw/474447c70fbb0757e1d4e35c029a1e59b3e2116f/paper-global.yml
 
-CMD ["java", "-jar" "paper.jar"]
+CMD ["java", "-jar", "paper.jar"]
