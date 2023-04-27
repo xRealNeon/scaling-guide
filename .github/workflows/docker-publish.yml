@@ -27,7 +27,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      DOCKER_TARGET_PLATFORM: linux/arm/v7
+      DOCKER_TARGET_PLATFORM: linux/arm64/v8
     permissions:
       contents: read
       packages: write
